@@ -1,0 +1,2 @@
+# HUST-ComputerComposition-Design-dinosaur
+华中科技大学计算机科学与技术学院计算机组成原理课设，团队任务为使用FPGA，实现了一个chrome小恐龙游戏。
