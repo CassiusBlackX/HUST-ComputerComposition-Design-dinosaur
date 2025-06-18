@@ -25,6 +25,11 @@
 ## 软件部分
 软件部分的代码详见`software/`下。该部分的代码实际上来源于在开发阶段就建立的仓库[sdl-dino](https://github.com/CassiusBlackX/sdl-dino)
 
+如果希望能够一次性就克隆完整仓库，需要使用命令
+```sh
+git clone --recursive
+```
+
 其中，`baremetal`分支中的内容才是用来上开发板的代码，没有使用任何第三方库和标准库，同时准备了相应的交叉编译的脚本，继承到CMake中，在编译的时候只用通过cmake就可以一次性生成最后需要的所有文件。
 
 ## 彩蛋(BUG)——飞翔的恐龙
